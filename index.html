@@ -1,1 +1,18 @@
-<h1>helo world!</h1>
+---
+layout: default
+title: 布布汪的窝
+page-title: 布布特尼
+home-title:
+description: 如果我以后养了只狗，就叫它布布
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+      {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
