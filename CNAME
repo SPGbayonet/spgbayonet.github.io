@@ -1,5 +1,1 @@
-$ dig blog.bubu.com +nostats +nocomments +nocmd
-  > ;blog.bubu.com.                     IN      A
-  > blog.bubu.com.              3592    IN      CNAME   spgbayonet.github.io.
-  > spgbayonet.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-  >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+blog.bubu.com
